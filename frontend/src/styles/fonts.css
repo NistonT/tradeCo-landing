@@ -1,0 +1,74 @@
+@font-face {
+	font-family: "Fira Code";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(@/fonts/FiraCode-Regular.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Fira Code";
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url(@/fonts/FiraCode-Medium.woff2) format("woff2");
+}
+@font-face {
+	font-family: "Fira Code";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(@/fonts/FiraCode-SemiBold.woff2) format("woff2");
+}
+
+/* Manrope */
+
+@font-face {
+	font-family: "Manrope";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(@/fonts/Manrope-Regular.ttf) format("ttf");
+}
+
+@font-face {
+	font-family: "Manrope";
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url(@/fonts/Manrope-Medium.ttf) format("ttf");
+}
+
+@font-face {
+	font-family: "Manrope";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(@/fonts/Manrope-SemiBold.ttf) format("ttf");
+}
+
+/* OpenSans */
+
+@font-face {
+	font-family: "OpenSans";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(@/fonts/OpenSans-Regular.ttf) format("ttf");
+}
+
+@font-face {
+	font-family: "OpenSans";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(@/fonts/OpenSans-SemiBold.ttf) format("ttf");
+}
+
+@font-face {
+	font-family: "OpenSans";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(@/fonts/OpenSans-Bold.ttf) format("ttf");
+}
