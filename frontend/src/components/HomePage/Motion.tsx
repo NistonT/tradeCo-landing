@@ -6,7 +6,7 @@ export const Motion = () => {
 	return (
 		<>
 			<motion.div
-				className='flex justify-between mt-28 relative items-center'
+				className='flex justify-between mt-14 relative items-center'
 				initial={{ opacity: 0, y: 40 }}
 				whileInView={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.6, ease: "easeOut" }}
