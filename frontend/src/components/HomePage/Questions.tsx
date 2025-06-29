@@ -5,7 +5,7 @@ import { Button } from "../ui/Button";
 export const Questions = () => {
 	return (
 		<motion.div
-			className='mt-28 bg-brand rounded-2xl overflow-hidden'
+			className='mt-14 bg-brand rounded-2xl overflow-hidden'
 			initial={{ opacity: 0, y: 40 }}
 			whileInView={{ opacity: 1, y: 0 }}
 			transition={{ duration: 0.6 }}
@@ -19,7 +19,7 @@ export const Questions = () => {
 					transition={{ duration: 0.6, delay: 0.2 }}
 					viewport={{ once: false, amount: 0.2 }}
 				>
-					<img
+					<motion.img
 						src={question_image}
 						alt='question'
 						className='w-full h-80 rounded-lg'

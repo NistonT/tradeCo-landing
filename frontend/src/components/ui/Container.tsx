@@ -1,9 +1,12 @@
 import { FC } from "react";
 
 interface ContainerProps {
-  children: React.ReactNode;
+	children: React.ReactNode;
+	className?: string;
 }
 
-export const Container: FC<ContainerProps> = ({ children }) => {
-  return <div className="container mx-auto px-2.5">{children}</div>;
+export const Container: FC<ContainerProps> = ({ children, className }) => {
+	return (
+		<div className={`container mx-auto md:px-10 ${className}`}>{children}</div>
+	);
 };

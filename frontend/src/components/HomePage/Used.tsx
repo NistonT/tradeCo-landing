@@ -10,7 +10,7 @@ export const Used = () => {
 
 	return (
 		<motion.div
-			className='mt-28'
+			className='mt-20'
 			initial={{ opacity: 0, y: 40 }}
 			whileInView={{ opacity: 1, y: 0 }}
 			transition={{ duration: 0.6 }}
@@ -27,7 +27,7 @@ export const Used = () => {
 			</motion.h2>
 
 			<motion.div
-				className='grid grid-cols-4 gap-7 text-additional w-full'
+				className='grid grid-cols-4 gap-4 text-additional w-full'
 				initial={{ opacity: 0, y: 30 }}
 				whileInView={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.5, delay: 0.3 }}
@@ -36,7 +36,7 @@ export const Used = () => {
 				{used.map((text, index) => (
 					<motion.div
 						key={index}
-						className='bg-additional-06 rounded-2xl border-2 border-additional'
+						className='bg-additional-06 rounded-2xl border-2 border-additional px-1.5'
 						initial={{ opacity: 0, scale: 0.9 }}
 						whileInView={{ opacity: 1, scale: 1 }}
 						transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}

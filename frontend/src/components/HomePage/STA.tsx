@@ -5,7 +5,7 @@ import { Button } from "../ui/Button";
 export const STA = () => {
 	return (
 		<motion.div
-			className='mt-28 bg-brand rounded-2xl overflow-hidden'
+			className='mt-14 bg-brand rounded-2xl overflow-hidden'
 			initial={{ opacity: 0, y: 40 }}
 			whileInView={{ opacity: 1, y: 0 }}
 			transition={{ duration: 0.6 }}
@@ -13,7 +13,7 @@ export const STA = () => {
 		>
 			<div className='flex flex-wrap items-center'>
 				<motion.div
-					className='max-w-3xl md:w-7/12'
+					className='max-w-3xl md:w-7/12 h-64 md:h-96 overflow-hidden'
 					initial={{ x: -30, opacity: 0 }}
 					whileInView={{ x: 0, opacity: 1 }}
 					transition={{ duration: 0.6, delay: 0.2 }}
@@ -22,7 +22,7 @@ export const STA = () => {
 					<img
 						src={STA_image}
 						alt='sta'
-						className='w-full h-auto object-cover'
+						className='w-full h-full object-cover object-center'
 					/>
 				</motion.div>
 

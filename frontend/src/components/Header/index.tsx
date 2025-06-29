@@ -7,7 +7,7 @@ export const Header = () => {
 		<>
 			<Container>
 				<motion.div
-					className='flex justify-between items-center py-4 mt-10'
+					className='flex justify-between items-center py-4 mt-5'
 					initial={{ opacity: 0, y: -20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.6 }}

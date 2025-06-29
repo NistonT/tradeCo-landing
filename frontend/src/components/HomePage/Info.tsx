@@ -15,7 +15,7 @@ export const Info = () => {
 	return (
 		<>
 			<motion.div
-				className='mt-28 flex w-full justify-between'
+				className='mt-20 flex w-full justify-between'
 				initial={{ opacity: 0, y: 40 }}
 				whileInView={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.6, ease: "easeOut" }}
@@ -61,9 +61,9 @@ export const Info = () => {
 						transition={{ duration: 0.4, delay: 0.4 }}
 						viewport={{ once: true }}
 					>
-						<div className='w-5/6'>
+						<div className='w-5/6 flex justify-center'>
 							<Button size={"xl"} onClick={handlerToggleModal}>
-								Записаться на бето - тестирование
+								Записаться
 							</Button>
 						</div>
 					</motion.div>
